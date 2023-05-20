@@ -1,6 +1,4 @@
-header img{
-    width:30%;
-}
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 #content{
     max-width: 1600px;
@@ -8,9 +6,10 @@ header img{
 }
 
 nav a{
-    text-align: center;
     color: white;
     text-decoration: none;
+    text-align: center;
+    padding: 35px;
 }
 
 #hero-msg h1{
@@ -21,21 +20,33 @@ nav a{
     text-align: center;
 }
 
+#logo_link{
+    padding-top: 5px;
+}
+
 .center{
     text-align: center;
     color:red;
 }
 
 .book{
-    background-color: azure;
-    color:black;
-    text-decoration: none;
-}
-
-.join{
     background-color: orange;
     color:black;
     text-decoration: none;
+    font-size: 18px;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.join{
+    background-color: azure;
+    color:black;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .book:hover{
@@ -52,10 +63,18 @@ nav a{
 
 .msg {
     background-color: orange;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2{
     color:darkblue;
+    font-family: Rubik, sans-serif; 
+}
+
+msg p{
+    font-size: 8em;
+    padding-bottom: 15px;
 }
 .button-box{
     text-align: center;
@@ -63,10 +82,9 @@ nav a{
 
 .home-title{
     color: darkblue;
-}
-
-.icon{
-    width: 80px;
+    font-family: Rubik, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 .logo{
@@ -74,31 +92,70 @@ nav a{
     height: 80px;
 }
 
-.hero-img{
-    width: 100%;
+.icon{
+    width: 80px;
+    padding-top: 10px;
 }
+
+#hero-img{
+    width: 100%;
+    text-align: center;
+    border: 2px solid darkgray;
+}
+
+.mountains{
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
 .home-grid {
     text-align: center;
 }
 
-#background {
+.rivers-card{
+    margin: 200px 0;
+}
+
+.camping-card{
+    margin: 200px 0;
+}
+
+.rapids-card{
+    margin: 200px 0;
+}
+
+.card-img{
+    border: 10px solid orange;
+}
+
+main section img{
+    box-sizing: border-box;
+}
+
+#background{
     height: 725px;
     background-color: orange;
 }
 
 body{
     background-color: azure;
+    font-family: Helvetica, Arial,sans-serif;
+    font-size: 22px;
+    margin:0;
+    padding:0;
 }
 
+h2{
+    font-family: Rubik,sans-serif;
+    margin: 0;
+}
 header{
     background-color: rgb(24, 11, 96);
-    width: 1400px;
 }
 
 nav a:hover{
-    background-color: black;
+    background-color: orange;
     color:aliceblue;
-    padding: 5px;
     text-decoration: underline;
 }
 
@@ -108,7 +165,10 @@ h4{
 
 footer{
     background-color:rgb(24, 11, 96);
+    padding: 25px 50px;
+    margin-top: 200px;
 }
+
 footer p{
     color: white;
     font-size: 1.2em;
@@ -126,4 +186,8 @@ footer a:hover{
     background-color: black;
     color:aliceblue;
     padding: 5px;
+}
+
+footer .social img{
+    padding-top: 15px;
 }
